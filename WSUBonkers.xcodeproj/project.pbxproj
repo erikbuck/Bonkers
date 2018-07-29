@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036BDB4020F64854007F2544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036BDB3F20F64854007F2544 /* AppDelegate.swift */; };
+		036BDB4220F64854007F2544 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036BDB4120F64854007F2544 /* GameViewController.swift */; };
+		036BDB4520F64854007F2544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036BDB4320F64854007F2544 /* Main.storyboard */; };
+		036BDB4820F64854007F2544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036BDB4620F64854007F2544 /* LaunchScreen.storyboard */; };
+		036BDB5120F64854007F2544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036BDB5020F64854007F2544 /* AppDelegate.swift */; };
+		036BDB5320F64854007F2544 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036BDB5220F64854007F2544 /* GameViewController.swift */; };
+		036BDB5620F64854007F2544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036BDB5420F64854007F2544 /* Main.storyboard */; };
+		036BDB5A20F64854007F2544 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 036BDB3520F64853007F2544 /* GameScene.sks */; };
+		036BDB5B20F64854007F2544 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 036BDB3520F64853007F2544 /* GameScene.sks */; };
+		036BDB5E20F64854007F2544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036BDB3720F64854007F2544 /* Assets.xcassets */; };
+		036BDB5F20F64854007F2544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036BDB3720F64854007F2544 /* Assets.xcassets */; };
+		036BDB6F20F64B54007F2544 /* Checker.png in Resources */ = {isa = PBXBuildFile; fileRef = 036BDB6D20F64B54007F2544 /* Checker.png */; };
+		036BDB7020F64B54007F2544 /* CheckerBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 036BDB6E20F64B54007F2544 /* CheckerBlack.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		036BDB3520F64853007F2544 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		036BDB3720F64854007F2544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036BDB3C20F64854007F2544 /* WSUBonkers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSUBonkers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036BDB3F20F64854007F2544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		036BDB4120F64854007F2544 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		036BDB4420F64854007F2544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		036BDB4720F64854007F2544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		036BDB4920F64854007F2544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036BDB4E20F64854007F2544 /* WSUBonkers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSUBonkers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036BDB5020F64854007F2544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		036BDB5220F64854007F2544 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		036BDB5520F64854007F2544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		036BDB5720F64854007F2544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036BDB6D20F64B54007F2544 /* Checker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checker.png; sourceTree = "<group>"; };
+		036BDB6E20F64B54007F2544 /* CheckerBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckerBlack.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036BDB3920F64854007F2544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036BDB4B20F64854007F2544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036BDB2E20F64853007F2544 = {
+			isa = PBXGroup;
+			children = (
+				036BDB3320F64853007F2544 /* WSUBonkers Shared */,
+				036BDB3E20F64854007F2544 /* WSUBonkers iOS */,
+				036BDB4F20F64854007F2544 /* WSUBonkers macOS */,
+				036BDB3D20F64854007F2544 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036BDB3320F64853007F2544 /* WSUBonkers Shared */ = {
+			isa = PBXGroup;
+			children = (
+				036BDB6820F648B1007F2544 /* Model */,
+				036BDB3720F64854007F2544 /* Assets.xcassets */,
+			);
+			path = "WSUBonkers Shared";
+			sourceTree = "<group>";
+		};
+		036BDB3D20F64854007F2544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036BDB3C20F64854007F2544 /* WSUBonkers.app */,
+				036BDB4E20F64854007F2544 /* WSUBonkers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036BDB3E20F64854007F2544 /* WSUBonkers iOS */ = {
+			isa = PBXGroup;
+			children = (
+				036BDB6920F648E3007F2544 /* Controller */,
+				036BDB6B20F648FB007F2544 /* View */,
+				036BDB4920F64854007F2544 /* Info.plist */,
+			);
+			path = "WSUBonkers iOS";
+			sourceTree = "<group>";
+		};
+		036BDB4F20F64854007F2544 /* WSUBonkers macOS */ = {
+			isa = PBXGroup;
+			children = (
+				036BDB6A20F648EF007F2544 /* Controller */,
+				036BDB6C20F64904007F2544 /* View */,
+				036BDB5720F64854007F2544 /* Info.plist */,
+			);
+			path = "WSUBonkers macOS";
+			sourceTree = "<group>";
+		};
+		036BDB6820F648B1007F2544 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				036BDB6D20F64B54007F2544 /* Checker.png */,
+				036BDB6E20F64B54007F2544 /* CheckerBlack.png */,
+				036BDB3520F64853007F2544 /* GameScene.sks */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		036BDB6920F648E3007F2544 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				036BDB3F20F64854007F2544 /* AppDelegate.swift */,
+				036BDB4120F64854007F2544 /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		036BDB6A20F648EF007F2544 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				036BDB5020F64854007F2544 /* AppDelegate.swift */,
+				036BDB5220F64854007F2544 /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		036BDB6B20F648FB007F2544 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				036BDB4320F64854007F2544 /* Main.storyboard */,
+				036BDB4620F64854007F2544 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		036BDB6C20F64904007F2544 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				036BDB5420F64854007F2544 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036BDB3B20F64854007F2544 /* WSUBonkers iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036BDB6220F64854007F2544 /* Build configuration list for PBXNativeTarget "WSUBonkers iOS" */;
+			buildPhases = (
+				036BDB3820F64854007F2544 /* Sources */,
+				036BDB3920F64854007F2544 /* Frameworks */,
+				036BDB3A20F64854007F2544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WSUBonkers iOS";
+			productName = "WSUBonkers iOS";
+			productReference = 036BDB3C20F64854007F2544 /* WSUBonkers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		036BDB4D20F64854007F2544 /* WSUBonkers macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036BDB6520F64854007F2544 /* Build configuration list for PBXNativeTarget "WSUBonkers macOS" */;
+			buildPhases = (
+				036BDB4A20F64854007F2544 /* Sources */,
+				036BDB4B20F64854007F2544 /* Frameworks */,
+				036BDB4C20F64854007F2544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WSUBonkers macOS";
+			productName = "WSUBonkers macOS";
+			productReference = 036BDB4E20F64854007F2544 /* WSUBonkers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036BDB2F20F64853007F2544 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = WSU;
+				TargetAttributes = {
+					036BDB3B20F64854007F2544 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					036BDB4D20F64854007F2544 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 036BDB3220F64853007F2544 /* Build configuration list for PBXProject "WSUBonkers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 036BDB2E20F64853007F2544;
+			productRefGroup = 036BDB3D20F64854007F2544 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036BDB3B20F64854007F2544 /* WSUBonkers iOS */,
+				036BDB4D20F64854007F2544 /* WSUBonkers macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036BDB3A20F64854007F2544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036BDB5A20F64854007F2544 /* GameScene.sks in Resources */,
+				036BDB6F20F64B54007F2544 /* Checker.png in Resources */,
+				036BDB4520F64854007F2544 /* Main.storyboard in Resources */,
+				036BDB7020F64B54007F2544 /* CheckerBlack.png in Resources */,
+				036BDB4820F64854007F2544 /* LaunchScreen.storyboard in Resources */,
+				036BDB5E20F64854007F2544 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036BDB4C20F64854007F2544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036BDB5620F64854007F2544 /* Main.storyboard in Resources */,
+				036BDB5B20F64854007F2544 /* GameScene.sks in Resources */,
+				036BDB5F20F64854007F2544 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036BDB3820F64854007F2544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036BDB4220F64854007F2544 /* GameViewController.swift in Sources */,
+				036BDB4020F64854007F2544 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036BDB4A20F64854007F2544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036BDB5320F64854007F2544 /* GameViewController.swift in Sources */,
+				036BDB5120F64854007F2544 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		036BDB4320F64854007F2544 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036BDB4420F64854007F2544 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		036BDB4620F64854007F2544 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036BDB4720F64854007F2544 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		036BDB5420F64854007F2544 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036BDB5520F64854007F2544 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		036BDB6020F64854007F2544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		036BDB6120F64854007F2544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		036BDB6320F64854007F2544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z5LCWW649;
+				INFOPLIST_FILE = "WSUBonkers iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WSU.WSUBonkers;
+				PRODUCT_NAME = WSUBonkers;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		036BDB6420F64854007F2544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z5LCWW649;
+				INFOPLIST_FILE = "WSUBonkers iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WSU.WSUBonkers;
+				PRODUCT_NAME = WSUBonkers;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036BDB6620F64854007F2544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8Z5LCWW649;
+				INFOPLIST_FILE = "WSUBonkers macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = WSU.WSUBonkers;
+				PRODUCT_NAME = WSUBonkers;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		036BDB6720F64854007F2544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8Z5LCWW649;
+				INFOPLIST_FILE = "WSUBonkers macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = WSU.WSUBonkers;
+				PRODUCT_NAME = WSUBonkers;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036BDB3220F64853007F2544 /* Build configuration list for PBXProject "WSUBonkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036BDB6020F64854007F2544 /* Debug */,
+				036BDB6120F64854007F2544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036BDB6220F64854007F2544 /* Build configuration list for PBXNativeTarget "WSUBonkers iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036BDB6320F64854007F2544 /* Debug */,
+				036BDB6420F64854007F2544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036BDB6520F64854007F2544 /* Build configuration list for PBXNativeTarget "WSUBonkers macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036BDB6620F64854007F2544 /* Debug */,
+				036BDB6720F64854007F2544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 036BDB2F20F64853007F2544 /* Project object */;
+}
